@@ -1,61 +1,160 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Reach the Summit of K2!</title>
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="starting.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-<body>
-  <div class="navigation">
-    <ul>
-      <a class="nav-link">Base Camp</a>
-      <a class="nav-link">Our Guides</a>
-      <a class="nav-link logo">Climb K2</a>
-      <a class="nav-link">How to Get Here</a>
-      <a class="nav-link">Contact</a>
-    </ul>
-  </div>
+body{
+  background-color: #ffffff;
+  margin: 0px;
+  padding:0px;
+}
 
-  <div class="banner">
-    <div class="banner-text">
-      <h1>Reach the Top</h1>
-      <h2>Summit K2</h2>
-      <a href="#" class="btn">Get on the mountain</a>
-    </div>
-  </div>
+.navigation{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  left: 0px;
+  overflow-y: auto;
+  padding:30px;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
 
-  <div class="content">
-    <h2>K2's Fierce Reputation</h2>
-    <div class="description">
-      <p>
-        <a href="https://en.wikipedia.org/wiki/K2">K2</a>, at 8,611 metres (28,251 ft) above sea level, is the second-highest mountain on Earth, after Mount Everest (at 8,849 metres (29,032 ft)). It lies in the Karakoram range, partially in the Gilgit-Baltistan region of Pakistan-administered Kashmir and partially in a China-administered territory Trans-Karakoram Tract included in the Taxkorgan Tajik Autonomous County of Xinjiang.
-      </p>
-      <p>
-        Because K2 is prone to frequent and severe storms that make the already treacherous climbing conditions on its slopes even more challenging—and humans find functioning at such high elevations difficult—it is one of the world’s most difficult mountains to climb. The number of people to have reached the top constitutes only a small fraction compared with how many have successfully climbed Mount Everest. In addition, although there have been fewer deaths on K2 compared with those on Mount Everest, the proportion of those killed to the number of people who have attempted climbing K2 is significantly higher.
-      </p>
-    </div>
-  </div>
+ul{
+  margin: 0px;
+  padding: 0px;
+}
 
-  <div class="activities-panel">
-    <h2>Climbing Options</h2>
-    <a class="activity">
-      Solo
-    </a>
-    <a class="activity">
-      Teams
-    </a>
-    <a class="activity">
-      Sherpa Guides
-    </a>
-  </div>
+.navigation a{
+  color: #736B92;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
 
-  <div class="footer">
-    <h2>
-      <a href="https://ayalavirtual.com" class="copyright">Ayala Virtual</a>
-      Copyright 2023
-      </h2>
-  </div>
+a.logo{
+  color: #2176FF;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 34px;
+  padding: 0px 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-  </body>
-</html>
+.banner{
+  background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Fe0e36980-6889-11e5-97d0-1456a776a4f5?dpr=2&fit=scale-down&quality=medium&source=next&width=700");
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #dddddd;
+  height: 700px;
+  position: relative;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+.banner-text{
+  position: relative;
+  top: 200px;
+}
+
+h1{
+  color: black;
+  font-family: 'Raleway',sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2{
+  color: #2176FF;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner h2{
+  font-size: 120px;
+  margin: -40px 0px 80px 0px;
+}
+
+.content{
+  background-image: url('https://content.codecademy.com/courses/learn-links-and-buttons/project/mountain1.jpg');
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #eeeeee;
+  margin: 0 auto;
+  overflow-y: auto;
+  padding: 80px 0px;
+  position: relative;
+  text-align: center;
+}
+
+p{
+  color: #000000;
+  font-family: 'Raleway',sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: left;
+}
+
+.description{
+  display: inline-block;
+  width: 70%;
+}
+
+.activities-panel{
+  margin-bottom: 40px;
+  padding: 80px 0px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.activities-panel h2 {
+  width: 100%;
+}
+
+.activity{
+  background-color: #2176FF;
+  box-sizing: border-box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Amatic SC',sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.footer{
+  background-color: #2176FF;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer h2{
+  color: #ffffff;
+  font-family: 'Raleway',sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+a {
+  cursor: default;
+  text-decoration-line: none;
+}
