@@ -44,7 +44,7 @@ a.logo{
 }
 
 .banner{
-  background-image: url("https://images.unsplash.com/photo-1418290232843-5d7a0bd93f7d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+  background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Fe0e36980-6889-11e5-97d0-1456a776a4f5?dpr=2&fit=scale-down&quality=medium&source=next&width=700");
   background-position: center top;
   background-size: cover;
   border-bottom: 1px solid #dddddd;
@@ -61,10 +61,10 @@ a.logo{
 }
 
 h1{
-  color: #ffffff;
+  color: black;
   font-family: 'Raleway',sans-serif;
   font-size: 60px;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 2px;
   margin: 0px;
   text-align: center;
