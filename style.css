@@ -1,0 +1,61 @@
+.copyright {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #5495ff;
+}
+
+.btn {
+  border: solid 1px black;
+  border-radius: 2em;
+  background-color: lightblue;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 14px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #2176FF;
+  transition: color .1s ease-in;
+  background-color .1s ease-in;
+}
+
+.btn:active {
+  font-size: 18px;
+  transition: font-size .1s ease-in-out;
+}
+
+.activity {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2em;
+}
+
+.activity:hover {
+  background-color: skyblue;
+  color: #5495ff;
+  transition: color .1s ease-in;
+  background-color .1s ease-in;
+}
+
+.activity:active {
+  font-size: 30px;
+  transition: font-size .1s;
+}
